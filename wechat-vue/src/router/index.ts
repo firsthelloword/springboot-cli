@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import { defineAsyncComponent } from 'vue'
 import Login from "@/views/login.vue"
-
+import HomePage from "@/views/HomePage.vue"
 const router = createRouter({ 
   history: createWebHistory(),  // history 模式
   routes: [
@@ -11,6 +11,14 @@ const router = createRouter({
       component: Login,
       meta: {
         title: '登录',
+      },
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: HomePage,
+      meta: {
+        title: '首页',
       },
     },
   ]
