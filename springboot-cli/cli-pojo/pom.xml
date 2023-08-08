@@ -11,5 +11,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cli-pojo</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.zyk</groupId>
+            <artifactId>cli-common</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
