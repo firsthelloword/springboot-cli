@@ -1,13 +1,13 @@
-package com.zyk.cli.api;
+package com.zyk.cli;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CliApiApplication {
+public class CliCodeGanerateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CliApiApplication.class, args);
+        SpringApplication.run(CliCodeGanerateApplication.class, args);
     }
 
 }

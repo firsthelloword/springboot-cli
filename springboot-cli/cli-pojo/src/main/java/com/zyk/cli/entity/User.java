@@ -1,6 +1,6 @@
-package com.zyk.cli.pojo.entity;
+package com.zyk.cli.entity;
 
-import com.zyk.cli.common.BaseEntity;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 /**
@@ -8,6 +8,7 @@ import lombok.Data;
  * @date 2023/8/8 14:57
  */
 @Data
+@TableName("user")
 public class  User extends BaseEntity {
 
     private String username;

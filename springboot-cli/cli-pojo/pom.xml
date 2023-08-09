@@ -16,8 +16,14 @@
             <groupId>com.zyk</groupId>
             <artifactId>cli-common</artifactId>
             <version>1.0.0</version>
-            <scope>compile</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>

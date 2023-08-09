@@ -1,3 +1,17 @@
 jwt:
   private.key: classpath:app.key
   public.key: classpath:app.pub
+
+
+mybatis-plus:
+  type-aliases-package: com.zyk.cli.entity
+  mapper-locations:  classpath*:mapper/*.xml
+
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://gz-cynosdbmysql-grp-hjeqlv0d.sql.tencentcdb.com:29696/system_show?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://mysql:29696/wechat?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: root
+    password: qwezyk123..

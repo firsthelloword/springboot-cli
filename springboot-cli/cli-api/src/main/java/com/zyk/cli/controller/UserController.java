@@ -1,4 +1,4 @@
-package com.zyk.cli.api.controller;
+package com.zyk.cli.controller;
 
 /**
  * @author zhangyongkai

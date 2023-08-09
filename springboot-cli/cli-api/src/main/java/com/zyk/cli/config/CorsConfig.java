@@ -1,4 +1,4 @@
-package com.zyk.cli.api.config;
+package com.zyk.cli.config;
 
 /**
  * @author zhangyongkai

@@ -1,7 +1,6 @@
-package com.zyk.cli.service;
+package com.zyk.cli;
 
-import com.zyk.cli.common.ResponseResult;
-import com.zyk.cli.pojo.param.LoginParam;
+import com.zyk.cli.param.LoginParam;
 
 /**
  * @author zhangyongkai

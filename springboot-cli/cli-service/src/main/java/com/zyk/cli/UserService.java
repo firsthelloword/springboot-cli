@@ -1,7 +1,7 @@
-package com.zyk.cli.service;
+package com.zyk.cli;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zyk.cli.pojo.entity.User;
+import com.zyk.cli.entity.User;
 
 /**
  * @author zhangyongkai

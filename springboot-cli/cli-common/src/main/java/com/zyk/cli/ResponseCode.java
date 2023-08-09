@@ -1,4 +1,4 @@
-package com.zyk.cli.common;
+package com.zyk.cli;
 
 /**
  * @author zhangyongkai

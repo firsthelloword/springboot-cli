@@ -1,4 +1,4 @@
-package com.zyk.cli.pojo.param;
+package com.zyk.cli.param;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ public class LoginParam {
 
    private String password;
 
-   private String account;
+   private String username;
 
    private String code;
 }

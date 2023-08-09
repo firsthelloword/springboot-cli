@@ -1,5 +1,6 @@
-package com.zyk.cli.common;
+package com.zyk.cli.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @Data
 public class BaseEntity {
 
+   @TableId
    private Integer id;
 
    private LocalDateTime createTime;
