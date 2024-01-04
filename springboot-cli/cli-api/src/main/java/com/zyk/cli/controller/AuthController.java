@@ -1,8 +1,8 @@
 package com.zyk.cli.controller;
 
-import com.zyk.cli.ResponseResult;
-import com.zyk.cli.param.LoginParam;
-import com.zyk.cli.AuthService;
+import com.zyk.cli.common.ResponseResult;
+import com.zyk.cli.pojo.param.LoginParam;
+import com.zyk.cli.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

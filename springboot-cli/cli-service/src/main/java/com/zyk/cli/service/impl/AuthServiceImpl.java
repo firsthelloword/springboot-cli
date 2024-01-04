@@ -1,8 +1,8 @@
 package com.zyk.cli.service.impl;
 
-import com.zyk.cli.AuthService;
-import com.zyk.cli.ResponseResult;
-import com.zyk.cli.param.LoginParam;
+import com.zyk.cli.common.ResponseResult;
+import com.zyk.cli.service.AuthService;
+import com.zyk.cli.pojo.param.LoginParam;
 import org.springframework.stereotype.Service;
 
 /**

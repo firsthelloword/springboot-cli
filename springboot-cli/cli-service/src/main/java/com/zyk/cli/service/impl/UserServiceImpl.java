@@ -2,8 +2,8 @@ package com.zyk.cli.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zyk.cli.mapper.UserMapper;
-import com.zyk.cli.UserService;
-import com.zyk.cli.entity.User;
+import com.zyk.cli.service.UserService;
+import com.zyk.cli.pojo.entity.User;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,4 +1,4 @@
-package com.zyk.cli.param;
+package com.zyk.cli.pojo.param;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
 package com.zyk.cli.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zyk.cli.entity.User;
+import com.zyk.cli.pojo.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

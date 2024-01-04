@@ -1,4 +1,4 @@
-package com.zyk.cli.entity;
+package com.zyk.cli.pojo.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
